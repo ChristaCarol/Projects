@@ -1,0 +1,51 @@
+index,Unnamed: 1,INCREFF
+0,Price (Per Unit),Price (Per Unit)
+1,₹4.00,4
+2,₹7.00,11
+3,₹25.00,Rs 0.15/- Per Day
+4,₹6.00,15.5
+5,•  Measurement is monthly,<0.2%
+6,Unloading,• Boxes counted and weighed. Data captured in the Maven.
+7,Validation,• GRN will be initiated against a valid PO document and Invoice will be captured
+8,QC,• No QC to be done (Outer Visual Inspection and Color matching)
+9,GRN,"•  Scanning (Goods will have scannable EAN code or unique barcodes) and counting of all inventory, verification of all data by supervisor and completion of GRN. Detailed report is made available"
+10,Putaway,• Mobile HHT based Putaway to accurately record warehouse location for every item/roll
+11,•  Measurement is monthly,<0.2%
+12,Order receipt,•  Orders will be received through integration directly into Maven or directly to Maven by the client
+13,Picking,• System driven optimised picking with real-time inventory correction by marking Not Found and alternate locations suggested
+14,Packing,• System driven packing by putting products into Polybags to maintain accuracy and generate pack slips
+15,Invoicing,• Print the invoice as generated through integration or provided by the client 
+16,Shipping,• Shipping labels and AWB via integration with vendors and generation of digital manifests to ensure accuracy
+17,POD,• Digital PODs from vendors if available via integration
+18,•  Measurement is monthly,<0.2%
+19,Inward,•  RTO and Customer Returns are received and Inwarded in the warehouse Outer package visible inspection is done before inwarding 
+20,•  Measurement is monthly,<0.2%
+21,Cycle count,•  Daily cycle count to maintain accuracy and deliver SLAs without disrupting regular operations. Complete Inventory to be covered in 3 months.
+22,•  Measurement is monthly,•  Any quantity not found during Cycle Count shall be parked in a non-serviceable location in Maven
+23,Audit,• Annual wall to wall Audit including global count driven by system to ensure speed while eliminating human error
+24,•  Measurement is monthly,<0.2%
+25,"i.            Product, Vendor and Customer Master Data is created in Maven before the rollout according to the data provided by the client",<0.2%
+26,ii.             Above procedure considers common B2C or D2C businesses,<0.2%
+27,iii.             Storage for Packing material is charged separately if provided by the client. The scrap generated from the goods is for the warehouse.,<0.2%
+28,•  Measurement is monthly,<0.2%
+29,i.                     tax registrations for the Client and any structural changes to comply with tax requirements,<0.2%
+30,ii.                    coordinate with vendors of the client,<0.2%
+31,iii.                  provision of packaging material and consumables,<0.2%
+32,iv.                  any licensing required specifically for the product,<0.2%
+33,v.                    coordinate with transportation or delivery service providers of client,<0.2%
+34,vi.                  refurbishment of goods,<0.2%
+35,•  Measurement is monthly,<0.2%
+36,•  Measurement is monthly,<0.2%
+37,Measurement,Target
+38,•  Measurement is monthly,>99.8%
+39,•  Calculated as: Total quantity available in Maven & dispatched/Total quantity ordered,<0.2%
+40,•  GRN throughput is subject to a cut-off of 11:00am,<0.2%
+41,•  Outbound throughput is subject to a cut-off of 2:00pm,<0.2%
+42,•  Returns throughput is subject to a cut-off of 10:00am,<0.2%
+43,•  Measurement is monthly,<0.2%
+44,"•  Total affected quantity (Short reported, excess reported and mismatch reported)/ Total quantity ordered during the month",<0.2%
+45,•  Measured at the time of full audit carried out against Maven inventory by Client or any third party appointed by the Client,<0.2%
+46,•  Final Shrinkage value calculated at Client’s holding cost of the inventory (net of any excess inventory found) Net value of transacted goods (excess – shortage) during the audit period measured at holding cost,1 Annual Audit is included in the commercials
+47,•  Penalty for fillrate,2x of the service fee per affected qty
+48,•  Penalty cap for service lapse,10% of monthly billing; not applicable if there are outstanding payments; no cap on shrinkage
+49,•  Days of Operations,7 days per week
