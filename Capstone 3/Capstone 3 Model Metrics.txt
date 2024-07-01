@@ -1,0 +1,20 @@
+﻿Model Type: Random Forest
+
+
+Features:
+- Amount
+- Qty
+- Category
+
+
+Hyperparameters:
+- max_depth: 10
+- n_estimators: 200
+
+
+Performance Metrics:
+- Training Accuracy: 0.99
+- Test Accuracy: 0.98
+- Precision: 0.97
+- Recall: 0.99
+- F1 Score: 0.98
